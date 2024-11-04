@@ -4,13 +4,13 @@ public class Kisi
 {
     // Properties
     // Özellikler
-    public string Ad { get; private set; }
-    public string Soyad { get; private set; }
-    public string TelefonNumarasi { get; private set; }
+    public string Ad { get; private set; } // Name
+    public string Soyad { get; private set; } // Surname
+    public string TelefonNumarasi { get; private set; } //PhoneNumber
     
     // Constructor Method
     // Yapıcı Metot
-    public Kisi(string ad, string soyad, string telefonNumarasi)
+    public Kisi(string ad, string soyad, string telefonNumarasi) // Person
     {
         Ad = ad;
         Soyad = soyad;
