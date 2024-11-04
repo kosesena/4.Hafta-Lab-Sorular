@@ -56,12 +56,12 @@ class Program
         // Rent the car
         // Aracı kirala 
         arac.AraciKirala(); // Aracın kiralanması
-        arac.AraciKirala(); // Zaten kiralandığı için müsait değil uyarısı verecek
+        arac.AraciKirala(); // This will display a message that the car is already rented / Zaten kiralandığı için müsait değil uyarısı verecek
         
         // Return the car
         // Aracı teslim et
         arac.AraciTeslimEt(); // Aracın teslim edilmesi
-        arac.AraciTeslimEt(); // Zaten müsait olduğu için uyarı verecek
+        arac.AraciTeslimEt(); // This will display a message that the car is already available / Zaten müsait olduğu için uyarı verecek
 
         Console.ReadLine();
     }
