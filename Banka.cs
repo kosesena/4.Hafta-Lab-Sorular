@@ -2,26 +2,28 @@
 
 public class BankaHesabi
 {
+    // Properties
     // Özellikler
-    public string HesapNumarasi { get; private set; }
-    private decimal bakiye;
+    public string HesapNumarasi { get; private set; }//AccountNumber
+    private decimal bakiye; // balance
 
+    // A set method that is accessible only within the class
     // Sadece sınıf içinden erişilebilen set metodu
     public decimal Bakiye
     {
         get { return bakiye; }
         private set { bakiye = value; }
     }
-
+    // Constructor method
     // Yapıcı Metot
-    public BankaHesabi(string hesapNumarasi, decimal ilkBakiye)
+    public BankaHesabi(string hesapNumarasi, decimal ilkBakiye) //BankAccount
     {
         HesapNumarasi = hesapNumarasi;
         Bakiye = ilkBakiye;
     }
-
+    // Deposit method
     // Para Yatırma Metodu
-    public void ParaYatir(decimal miktar)
+    public void ParaYatir(decimal miktar) // Deposit
     {
         if (miktar > 0)
         {
