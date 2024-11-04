@@ -4,13 +4,13 @@ public class KiralikArac
 {
     // Properties
     // Özellikler
-    public string Plaka { get; private set; }
-    public decimal GunlukUcret { get; private set; }
-    public bool MusaitMi { get; private set; }
+    public string Plaka { get; private set; } // Plate
+    public decimal GunlukUcret { get; private set; } // DailyWage
+    public bool MusaitMi { get; private set; } // IsAvailable
     
     // Constructor Method
     // Yapıcı Metot
-    public KiralikArac(string plaka, decimal gunlukUcret)
+    public KiralikArac(string plaka, decimal gunlukUcret) // RentalCar
     {
         Plaka = plaka;
         GunlukUcret = gunlukUcret;
@@ -27,7 +27,7 @@ public class KiralikArac
         }
         else
         {
-            Console.WriteLine($"Araç {Plaka} şu anda müsait değil.");// Car with licence plate {Plaka} is not available at the mpment.
+            Console.WriteLine($"Araç {Plaka} şu anda müsait değil.");// Car with licence plate {Plaka} is not available at the moment.
         }
     }
     // Method to Return the Car
