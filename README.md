@@ -1,6 +1,6 @@
 # TR - 4.⁠ ⁠Hafta Laboratuvar Soruları
 
-Bu repo, 4. hafta laboratuvar sorularını içermektedir. Kod, hem Türkçe hem de İngilizce yorum satırlarıyla yazılarak anlaşılır ve kapsamlı bir hale getirilmiştir. Amacımız, daha fazla kişinin koda kolaylıkla erişebilmesini ve farklı dil seçenekleri ile projeye katkıda bulunabilmesini sağlamaktır.
+Bu repo, Nesne Yönelimli Programlama dersinin 4. hafta laboratuvar sorularını içermektedir. Kod, hem Türkçe hem de İngilizce yorum satırlarıyla yazılarak anlaşılır ve kapsamlı bir hale getirilmiştir. Amacımız, daha fazla kişinin koda kolaylıkla erişebilmesini ve farklı dil seçenekleri ile projeye katkıda bulunabilmesini sağlamaktır.
 
 İçerik
 
