@@ -12,7 +12,7 @@ Her katkı ve geri bildiriminiz, projeyi daha iyi bir hale getirmek için çok d
 
 # EN - 4th Week Laboratory Questions
 
-This repository contains the questions for the 4th week laboratory. The code is written with comments in both Turkish and English, making it accessible and comprehensive. Our goal is to enable more people to engage with the code and contribute to the project through multiple language options.
+This repository contains the questions for the 4th week of the Object-Oriented Programming course laboratory. The code is written with comments in both Turkish and English, making it accessible and comprehensive. Our goal is to enable more people to engage with the code and contribute to the project through multiple language options.
 
 Contents
 
